@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="authorization">Authorization</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="like">Like</string>
+    <string name="delete">Delete</string>
+    <string name="phone">Phone</string>
+    <string name="registration">Registration</string>
+    <string name="enter">Enter</string>
+    <string name="enterLike">Enter</string>
+    <string name="error_user_name">Enter username</string>
+    <string name="error_user_login">Enter  login</string>
+    <string name="error_user_password">Enter password</string>
+    <string name="error_user_phone">Enter phone</string>
+    <string name="add_idea">New Idea</string>
+    <string name="redaction_idea">Redaction Idea</string>
+    <string name="idea_title">Idea title</string>
+    <string name="idea_title_redaction">Title</string>
+    <string name="description">Description</string>
+    <string name="id">ID idea</string>
+    <string name="button_All_Ideas">All Ideas</string>
+    <string name="button_Personals_Idea">Personals idea</string>
+    <string name="button_Favorite_Idea">Favorite idea</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

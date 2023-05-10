@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".NewIdea">
+
+    <TextView
+        android:id="@+id/NameApplication"
+        style="@style/Widget.Material3.TextInputEditText.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="@string/add_idea"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+
+
+    <EditText
+        android:id="@+id/addIdea"
+        android:layout_width="match_parent"
+        android:inputType="textMultiLine"
+        android:layout_height="wrap_content"
+        android:ems="100"
+        android:textSize="20sp"
+        android:layout_below="@id/NameApplication"
+        android:backgroundTint="@color/black"
+        android:layout_marginHorizontal="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:hint="@string/idea_title" />
+
+    <EditText
+        android:id="@+id/description"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="100"
+        android:textSize="20sp"
+
+        android:layout_below="@id/addIdea"
+        android:layout_marginHorizontal="50dp"
+        android:textColorHint="@color/white"
+        android:hint="@string/description"
+        android:textColor="@color/black"
+         />
+
+
+
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/AuthorizationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:textSize="20sp"
+        android:background="@color/buttonColor"
+        android:layout_marginTop="300dp"
+        android:layout_marginHorizontal="130dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/AllIdeas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_All_Ideas"
+        android:textSize="20sp"
+        android:background="@color/buttonColor"
+        android:layout_marginTop="350dp"
+        android:layout_marginHorizontal="130dp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/PersonalsIdeas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_Personals_Idea"
+        android:textSize="20sp"
+        android:background="@color/buttonColor"
+        android:layout_marginTop="400dp"
+        android:layout_marginHorizontal="130dp"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <Button
+        android:id="@+id/FavoriteIdea"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="460dp"
+        android:background="@color/buttonColor"
+        android:text="@string/button_Favorite_Idea"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <Button
+        android:id="@+id/redactionIdeaAll"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="520dp"
+        android:background="@color/buttonColor"
+        android:text="@string/redaction_idea"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+
+</RelativeLayout>

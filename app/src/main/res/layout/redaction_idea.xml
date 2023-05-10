@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".RedactionIdea">
+
+    <TextView
+        android:id="@+id/redactionIdeaName"
+        style="@style/Widget.Material3.TextInputEditText.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="@string/redaction_idea"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+
+    <EditText
+        android:id="@+id/redactionIdea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/redactionIdeaName"
+        android:layout_marginHorizontal="50dp"
+        android:backgroundTint="@color/black"
+        android:ems="100"
+        android:hint="@string/idea_title_redaction"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/redactionDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/redactionIdea"
+        android:layout_marginHorizontal="50dp"
+        android:ems="100"
+        android:hint="@string/description"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/redactionIdIdea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/redactionDescription"
+        android:layout_marginHorizontal="50dp"
+        android:ems="100"
+        android:hint="@string/id"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/enterButtonRedaction"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/buttonColor"
+        android:text="@string/enter"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+</RelativeLayout>
